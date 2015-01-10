@@ -6,6 +6,13 @@ project root exactly and you will get all benefits of having activated virtual
 environment in your edtor like proper goto and autocompletion for 3dparty 
 packages in vim-jedi for example.
 
+## INSTALLATION
+[pathogen.vim](https://github.com/tpope/vim-pathogen) is recommended way to
+install virtualenv-config.
+
+    cd ~/.vim/bundle
+    git clone https://github.com/proitm/vim-virtualenv-config.git
+
 ## IMPORTANT NOTE
 This plugin doesn't replace python executable in vim like 
 vim-virtualenv (https://github.com/jmcantrell/vim-virtualenv/) does so you
